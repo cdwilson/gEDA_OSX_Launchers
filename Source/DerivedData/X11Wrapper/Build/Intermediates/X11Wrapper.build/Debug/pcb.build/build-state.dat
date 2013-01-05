@@ -1,276 +1,0 @@
-Tpcb
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist" pcb-Info.plist
-cCompileXIB "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib"
-cCpResource Icons/pcb.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns
-cCpResource Icons/pcb-layout.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns
-cCpResource Icons/pcb-footprint.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns
-cProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb" normal x86_64
-cTouch "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000503F1B7700000000000000AA
-t1346313079
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-c0000000050901DB5000000000000197F
-t1351622069
-s6527
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000005028D5B10000000000006730
-t1344853425
-s26416
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth
-t1357365078
-s13533628
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcb.LinkFileList
-c0000000050E7BF7C00000000000002AA
-t1357365116
-s682
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/English.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib
-c000000004C044FEA000000000000B3FA
-t1275351018
-s46074
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb-footprint.icns
-c000000004C045BDE0000000000017956
-t1275354078
-s96598
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb-layout.icns
-c000000004C045BA80000000000021E08
-t1275354024
-s138760
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb.icns
-c000000004C045948000000000003591B
-t1275353416
-s219419
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m
-c000000004C045825000000000000073F
-t1275353125
-s1855
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.h
-c000000004C0472D3000000000000023F
-t1275359955
-s575
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m
-c00000000502E3AC50000000000000A2E
-t1345206981
-s2606
-i"X11WrapperDocument.h"
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m
-c000000004C0452D600000000000000F5
-t1275351766
-s245
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m
-c000000004C04549F0000000000000135
-t1275352223
-s309
-
-Npcb-Info.plist
-c000000004C045BF500000000000007B3
-t1275354101
-s1971
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesd0b662fcf697b641^3b386cfcf697b641^---0#1#0#--18"Check dependencies36"AF3FBAC5-4C67-4E62-B0A7-0C9814AD502E-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057916.518223
-e379057916.693537
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.mb5dd84fcf697b641^959ab1fcf697b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/X11WrapperAppDelegate.m0000000000000000^3755"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o X11WrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperAppDelegate.o"36"C9625AFF-46FA-47F7-8166-C579A83BB3B5-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057916.518199
-e379057916.697936
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m09f984fcf697b641^efabb2fcf697b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/X11WrapperDocument.m0000000000000000^3737"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o X11WrapperDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/X11WrapperDocument.o"36"9A40BC9F-65D5-4697-9367-6370A8363212-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057916.519404
-e379057916.663133
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m111e85fcf697b641^35d3a9fcf697b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/main.m0000000000000000^3653"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/main.o"36"89EFA014-140F-468C-A39F-67C114251227-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057916.518794
-e379057916.692027
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.mbf0d85fcf697b641^302eb1fcf697b641^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/pcbDocument.m0000000000000000^3695"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o pcbDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/pcb-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/pcbDocument.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcbDocument.o"36"09A985A1-F4ED-440F-BEC3-33A4530C09EA-
-
-CCompileXIB "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib"
-s379057916.439431
-e379057916.497671
-r1
-xCompileXIB
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib789670fcf697b641^11717ffcf697b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/English.lproj/MainMenu.xib0000000000000000^677"CompileXIB English.lproj/MainMenu.xib    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"3F651967-14A3-4F77-8168-FD068CC75CAE-
-
-CCpResource Icons/pcb-footprint.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns
-s379057916.439754
-e379057916.475791
-r1
-xCpResource
-xIcons/pcb-footprint.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icnscaa670fcf697b641^cf4a7afcf697b641^---0#0#0#-19%DVTDocumentLocation2@167"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns000000000080d041^515"CpResource Icons/pcb-footprint.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-footprint.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb-footprint.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources"36"508D58A7-819C-4C5A-A21A-45746329E778-
-
-CCpResource Icons/pcb-layout.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns
-s379057916.439447
-e379057916.496893
-r1
-xCpResource
-xIcons/pcb-layout.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Copy DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns899670fcf697b641^b16b7ffcf697b641^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns000000000080d041^506"CpResource Icons/pcb-layout.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb-layout.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb-layout.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources"36"5D3199BD-A761-4E29-843E-8A88CAD8EBC1-
-
-CCpResource Icons/pcb.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns
-s379057916.439443
-e379057916.502309
-r1
-xCpResource
-xIcons/pcb.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns429770fcf697b641^b79780fcf697b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns000000000080d041^485"CpResource Icons/pcb.icns DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources/pcb.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/pcb.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Resources"36"553574F8-C1E5-49DB-90B7-F7706660800C-
-
-CLd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb" normal x86_64
-s379057916.704864
-e379057916.757570
-r1
-xLd
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection131"Link /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcbf888b4fcf697b641^0bf0c1fcf697b641^---0#0#0#--1039"Ld DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb normal x86_64    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -filelist "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/pcb.build/Objects-normal/x86_64/pcb.LinkFileList" -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -fobjc-link-runtime -framework Cocoa -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/MacOS/pcb"36"98273044-48A2-4B7F-B955-0DB4B985FFDC-
-
-CProcessInfoPlistFile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist" pcb-Info.plist
-s379057916.427921
-e379057916.431611
-r1
-xProcessInfoPlistFile
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist
-xpcb-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection22"Process pcb-Info.plistd09c6dfcf697b641^cc7d6efcf697b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/pcb-Info.plist0000000000000000^527"ProcessInfoPlistFile DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist pcb-Info.plist    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-infoPlistUtility pcb-Info.plist -genpkginfo "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app/Contents/Info.plist"36"FA54D704-E127-43C5-A6F4-B09C0EDD2947-
-
-CProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Index/PrecompiledHeaders/AppKit-bkdwpqexlrhfjbcbmzwumidizwid_ast/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app"
-s379057916.765038
-e379057916.771830
-r1
-xTouch
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Touch /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app78ecc3fcf697b641^eeb4c5fcf697b641^---0#0#0#--255"Touch DerivedData/X11Wrapper/Build/Products/Debug/pcb.app    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    /usr/bin/touch -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/pcb.app"36"98B10A39-5CC2-47CD-884D-4370797B4D96-
-

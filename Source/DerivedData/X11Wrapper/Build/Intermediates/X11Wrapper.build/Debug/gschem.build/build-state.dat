@@ -1,282 +1,0 @@
-Tgschem
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist" gschem-Info.plist
-cCompileXIB "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib"
-cCpResource Icons/geda-gschem.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns
-cCpResource Icons/geda-schematic.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns
-cCpResource Icons/geda-symbol.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns
-cProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem" normal x86_64
-cTouch "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app"
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000503F1B7700000000000000AA
-t1346313079
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
-c0000000050901DB5000000000000197F
-t1351622069
-s6527
-
-N/System/Library/Frameworks/Cocoa.framework/Cocoa
-c000000005028D5B10000000000006730
-t1344853425
-s26416
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth
-t1357365078
-s13533628
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschem.LinkFileList
-c0000000050E7BF7F00000000000002B9
-t1357365119
-s697
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/PkgInfo
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/English.lproj/MainMenu.nib
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns
-t2
-s0
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib
-c000000004C044FEA000000000000B3FA
-t1275351018
-s46074
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-gschem.icns
-c000000004C04577C000000000002D357
-t1275352956
-s185175
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-schematic.icns
-c000000004C04579B000000000001683A
-t1275352987
-s92218
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-symbol.icns
-c000000004C043701000000000001952E
-t1275344641
-s103726
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.h
-c000000004C0450B200000000000000DE
-t1275351218
-s222
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m
-c000000004C045825000000000000073F
-t1275353125
-s1855
-i"X11WrapperAppDelegate.h"
-i"X11WrapperDocument.h"
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.h
-c000000004C0472D3000000000000023F
-t1275359955
-s575
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m
-c00000000502E3AC50000000000000A2E
-t1345206981
-s2606
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m
-c000000004C0454500000000000000141
-t1275352144
-s321
-
-N/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m
-c000000004C0452D600000000000000F5
-t1275351766
-s245
-
-Ngschem-Info.plist
-c000000004C045B6500000000000007DB
-t1275353957
-s2011
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m"
-r0
-
-CBuild AST from "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m"
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies5eb90efff697b641^5c5a1dfff697b641^---0#1#0#--18"Check dependencies36"94EB28BD-94B1-41A8-9D6A-859BA8354835-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057919.196536
-e379057919.366249
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m7afc32fff697b641^6af95dfff697b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/X11WrapperAppDelegate.m0000000000000000^3797"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o X11WrapperAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperAppDelegate.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperAppDelegate.o"36"ECA1BF0E-96C1-4CE8-80F7-0367C87B14F1-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057919.199101
-e379057919.372277
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m6a3233fff697b641^f4505ffff697b641^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/X11WrapperDocument.m0000000000000000^3779"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o X11WrapperDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/X11WrapperDocument.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/X11WrapperDocument.o"36"A7100941-641B-4C2E-AF7F-6D055CCBC0AF-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057919.200254
-e379057919.358365
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m577c33fff697b641^49f55dfff697b641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/gschemDocument.m0000000000000000^3755"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o gschemDocument.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/gschemDocument.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschemDocument.o"36"9ED78601-10F5-452A-A42F-D26B7507EB22-
-
-CCompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s379057919.200915
-e379057919.325939
-r1
-xCompileC
-xDerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.me76f36fff697b641^3ab153fff697b641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/main.m0000000000000000^3695"CompileC DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -fvisibility=hidden -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-generated-files.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-own-target-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-all-target-headers.hmap" -iquote "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/gschem-project-headers.hmap" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources/x86_64" "-I/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/DerivedSources" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -include "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h" -MMD -MT dependencies -MF "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.dia" -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/main.m" -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/main.o"36"89C6902E-D8C9-492A-B3F9-3F813836D05C-
-
-CCompileXIB "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib"
-s379057919.131047
-e379057919.178438
-r1
-xCompileXIB
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compiling /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib12a521fff697b641^ebad2dfff697b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/English.lproj/MainMenu.xib0000000000000000^680"CompileXIB English.lproj/MainMenu.xib    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/English.lproj/MainMenu.nib" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/English.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"8E26E412-5E5D-4C28-8FB5-77A65617A3B9-
-
-CCpResource Icons/geda-gschem.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns
-s379057919.131057
-e379057919.134096
-r1
-xCpResource
-xIcons/geda-gschem.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns34a121fff697b641^5c5522fff697b641^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns000000000080d041^515"CpResource Icons/geda-gschem.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-gschem.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-gschem.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources"36"3D0C9000-F792-4DDB-8920-E4DE4E9A5ABA-
-
-CCpResource Icons/geda-schematic.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns
-s379057919.131061
-e379057919.162597
-r1
-xCpResource
-xIcons/geda-schematic.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icnsc6a221fff697b641^baa129fff697b641^---0#0#0#-19%DVTDocumentLocation2@171"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns000000000080d041^524"CpResource Icons/geda-schematic.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-schematic.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-schematic.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources"36"386F7B11-E7F4-45D3-825F-2D1834D25539-
-
-CCpResource Icons/geda-symbol.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns
-s379057919.131276
-e379057919.176947
-r1
-xCpResource
-xIcons/geda-symbol.icns
-xDerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icnsf3af21fff697b641^b14e2dfff697b641^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns000000000080d041^515"CpResource Icons/geda-symbol.icns DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources/geda-symbol.icns    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/Icons/geda-symbol.icns" "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Resources"36"0446482A-6378-47B5-8BD0-48BA930E733D-
-
-CLd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem" normal x86_64
-s379057919.379202
-e379057919.426000
-r1
-xLd
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Link /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem8d2861fff697b641^bb0e6dfff697b641^---0#0#0#--1057"Ld DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem normal x86_64    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk "-L/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" "-F/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug" -filelist "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/X11Wrapper.build/Debug/gschem.build/Objects-normal/x86_64/gschem.LinkFileList" -mmacosx-version-min=10.8 -framework Foundation -framework AppKit -fobjc-link-runtime -framework Cocoa -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/MacOS/gschem"36"D8C9EADA-6F5C-435F-B932-4DB5D28904FF-
-
-CProcessInfoPlistFile "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist" gschem-Info.plist
-s379057919.118866
-e379057919.123240
-r1
-xProcessInfoPlistFile
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist
-xgschem-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection25"Process gschem-Info.plist17801efff697b641^978c1ffff697b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/xiaobo/Documents/code/gEDA%20OS%20X%20Launchers/Source/gschem-Info.plist0000000000000000^542"ProcessInfoPlistFile DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist gschem-Info.plist    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    builtin-infoPlistUtility gschem-Info.plist -genpkginfo "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app/Contents/Info.plist"36"B797CC86-F057-4647-A158-104E1CD260FD-
-
-CProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Intermediates/PrecompiledHeaders/AppKit-ajystqcusxhsiyeghzstntkmvovb/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-r0
-
-CProcessPCH "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Index/PrecompiledHeaders/AppKit-bkdwpqexlrhfjbcbmzwumidizwid_ast/AppKit.h.pth" /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app"
-s379057919.433691
-e379057919.441513
-r1
-xTouch
-x/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Touch /Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app5d166ffff697b641^530771fff697b641^---0#0#0#--261"Touch DerivedData/X11Wrapper/Build/Products/Debug/gschem.app    cd "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source"    /usr/bin/touch -c "/Users/xiaobo/Documents/code/gEDA OS X Launchers/Source/DerivedData/X11Wrapper/Build/Products/Debug/gschem.app"36"07A5D1F0-DD8F-4DD8-B0C8-022D78C37E2D-
-
