@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'X11Wrapper' target in the 'X11Wrapper' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C904D1D111B48A12007B810D /* X11WrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D18411B48627007B810D /* X11WrapperAppDelegate.m */; };
+		C904D1D211B48A13007B810D /* X11WrapperDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */; };
+		C904D1D511B48A59007B810D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; };
+		C904D1DD11B48A9C007B810D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		C904D1E111B48AB7007B810D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C904D1E411B48AD8007B810D /* gschemDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D1E311B48AD8007B810D /* gschemDocument.m */; };
+		C904D22311B48C08007B810D /* pcbDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D22211B48C08007B810D /* pcbDocument.m */; };
+		C904D22411B48C49007B810D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		C904D22511B48C4F007B810D /* X11WrapperDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */; };
+		C904D22611B48C4F007B810D /* X11WrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D18411B48627007B810D /* X11WrapperAppDelegate.m */; };
+		C904D22711B48C53007B810D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; };
+		C904D24B11B48D5D007B810D /* geda-gschem.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D24A11B48D5D007B810D /* geda-gschem.icns */; };
+		C904D24D11B48D67007B810D /* geda-schematic.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D24C11B48D67007B810D /* geda-schematic.icns */; };
+		C904D24F11B48D6E007B810D /* geda-symbol.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D24E11B48D6E007B810D /* geda-symbol.icns */; };
+		C904D27B11B490D6007B810D /* pcb.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D27A11B490D6007B810D /* pcb.icns */; };
+		C904D28711B49332007B810D /* pcb-layout.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D28611B49332007B810D /* pcb-layout.icns */; };
+		C904D28911B49365007B810D /* pcb-footprint.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D28811B49365007B810D /* pcb-footprint.icns */; };
+		C904D2BA11B494C1007B810D /* gerbvDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D2B911B494C1007B810D /* gerbvDocument.m */; };
+		C904D2C311B494F1007B810D /* X11WrapperDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */; };
+		C904D2C411B494F1007B810D /* X11WrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D18411B48627007B810D /* X11WrapperAppDelegate.m */; };
+		C904D2C511B494F1007B810D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; };
+		C904D2C611B494FB007B810D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C904D2C711B494FF007B810D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C904D2CB11B49517007B810D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		C904D2EA11B49759007B810D /* excellon.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D2E811B49759007B810D /* excellon.icns */; };
+		C904D2EB11B49759007B810D /* gerber.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D2E911B49759007B810D /* gerber.icns */; };
+		C904D2ED11B49764007B810D /* gerbv.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D2EC11B49764007B810D /* gerbv.icns */; };
+		C904D31A11B49A1A007B810D /* gsch2pcbDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D30611B4991E007B810D /* gsch2pcbDocument.m */; };
+		C904D31B11B49A23007B810D /* X11WrapperDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */; };
+		C904D31C11B49A23007B810D /* X11WrapperAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C904D18411B48627007B810D /* X11WrapperAppDelegate.m */; };
+		C904D31D11B49A23007B810D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; };
+		C904D31E11B49A59007B810D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+		C904D32611B49BA8007B810D /* gsch2pcb-project.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D32511B49BA8007B810D /* gsch2pcb-project.icns */; };
+		C904D32D11B49BD4007B810D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		C904D33711B4A00A007B810D /* gsch2pcb.icns in Resources */ = {isa = PBXBuildFile; fileRef = C904D33611B4A00A007B810D /* gsch2pcb.icns */; };
+		C97B406311B4AA6500283777 /* gerbvProjectDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = C97B406211B4AA6500283777 /* gerbvProjectDocument.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* X11Wrapper_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X11Wrapper_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = X11WrapperDocument.m; sourceTree = "<group>"; };
+		2A37F4AEFDCFA73011CA2CEA /* X11WrapperDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X11WrapperDocument.h; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D15AC360486D014006FF6A4 /* X11Wrapper-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "X11Wrapper-Info.plist"; sourceTree = "<group>"; };
+		C904D18311B48627007B810D /* X11WrapperAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = X11WrapperAppDelegate.h; sourceTree = "<group>"; };
+		C904D18411B48627007B810D /* X11WrapperAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = X11WrapperAppDelegate.m; sourceTree = "<group>"; };
+		C904D1CB11B489EC007B810D /* gschem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gschem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C904D1CD11B489EC007B810D /* gschem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gschem-Info.plist"; sourceTree = "<group>"; };
+		C904D1E311B48AD8007B810D /* gschemDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gschemDocument.m; sourceTree = "<group>"; };
+		C904D21C11B48BEB007B810D /* pcb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pcb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C904D21E11B48BEB007B810D /* pcb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pcb-Info.plist"; sourceTree = "<group>"; };
+		C904D22211B48C08007B810D /* pcbDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pcbDocument.m; sourceTree = "<group>"; };
+		C904D24A11B48D5D007B810D /* geda-gschem.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "geda-gschem.icns"; path = "Icons/geda-gschem.icns"; sourceTree = "<group>"; };
+		C904D24C11B48D67007B810D /* geda-schematic.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "geda-schematic.icns"; path = "Icons/geda-schematic.icns"; sourceTree = "<group>"; };
+		C904D24E11B48D6E007B810D /* geda-symbol.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "geda-symbol.icns"; path = "Icons/geda-symbol.icns"; sourceTree = "<group>"; };
+		C904D27A11B490D6007B810D /* pcb.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = pcb.icns; path = Icons/pcb.icns; sourceTree = "<group>"; };
+		C904D28611B49332007B810D /* pcb-layout.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "pcb-layout.icns"; path = "Icons/pcb-layout.icns"; sourceTree = "<group>"; };
+		C904D28811B49365007B810D /* pcb-footprint.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "pcb-footprint.icns"; path = "Icons/pcb-footprint.icns"; sourceTree = "<group>"; };
+		C904D2B111B49482007B810D /* gerbv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gerbv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C904D2B311B49482007B810D /* gerbv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gerbv-Info.plist"; sourceTree = "<group>"; };
+		C904D2B911B494C1007B810D /* gerbvDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gerbvDocument.m; sourceTree = "<group>"; };
+		C904D2E811B49759007B810D /* excellon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = excellon.icns; path = Icons/excellon.icns; sourceTree = "<group>"; };
+		C904D2E911B49759007B810D /* gerber.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = gerber.icns; path = Icons/gerber.icns; sourceTree = "<group>"; };
+		C904D2EC11B49764007B810D /* gerbv.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = gerbv.icns; path = Icons/gerbv.icns; sourceTree = "<group>"; };
+		C904D30011B49902007B810D /* gsch2pcb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gsch2pcb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C904D30211B49902007B810D /* gsch2pcb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gsch2pcb-Info.plist"; sourceTree = "<group>"; };
+		C904D30611B4991E007B810D /* gsch2pcbDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gsch2pcbDocument.m; sourceTree = "<group>"; };
+		C904D32511B49BA8007B810D /* gsch2pcb-project.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "gsch2pcb-project.icns"; path = "Icons/gsch2pcb-project.icns"; sourceTree = "<group>"; };
+		C904D33611B4A00A007B810D /* gsch2pcb.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = gsch2pcb.icns; path = Icons/gsch2pcb.icns; sourceTree = "<group>"; };
+		C97B406211B4AA6500283777 /* gerbvProjectDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = gerbvProjectDocument.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C904D1C911B489EC007B810D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D1E111B48AB7007B810D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D21A11B48BEB007B810D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D2C611B494FB007B810D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2AF11B49482007B810D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D2C711B494FF007B810D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2FE11B49902007B810D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D31E11B49A59007B810D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C904D1CB11B489EC007B810D /* gschem.app */,
+				C904D21C11B48BEB007B810D /* pcb.app */,
+				C904D2B111B49482007B810D /* gerbv.app */,
+				C904D30011B49902007B810D /* gsch2pcb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* X11Wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Base Classes */,
+				2A37F4B8FDCFA73011CA2CEA /* Base Resources */,
+				C904D1D311B48A26007B810D /* gschem */,
+				C904D1D411B48A41007B810D /* pcb */,
+				C904D2B711B49499007B810D /* gerbv */,
+				C904D2FB11B498DA007B810D /* gsch2pcb */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = X11Wrapper;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AEFDCFA73011CA2CEA /* X11WrapperDocument.h */,
+				2A37F4ACFDCFA73011CA2CEA /* X11WrapperDocument.m */,
+				C904D18311B48627007B810D /* X11WrapperAppDelegate.h */,
+				C904D18411B48627007B810D /* X11WrapperAppDelegate.m */,
+				2564AD2C0F5327BB00F57823 /* X11Wrapper_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Base Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC360486D014006FF6A4 /* X11Wrapper-Info.plist */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = "Base Resources";
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C904D1D311B48A26007B810D /* gschem */ = {
+			isa = PBXGroup;
+			children = (
+				C904D1E311B48AD8007B810D /* gschemDocument.m */,
+				C904D1CD11B489EC007B810D /* gschem-Info.plist */,
+				C904D24A11B48D5D007B810D /* geda-gschem.icns */,
+				C904D24C11B48D67007B810D /* geda-schematic.icns */,
+				C904D24E11B48D6E007B810D /* geda-symbol.icns */,
+			);
+			name = gschem;
+			sourceTree = "<group>";
+		};
+		C904D1D411B48A41007B810D /* pcb */ = {
+			isa = PBXGroup;
+			children = (
+				C904D22211B48C08007B810D /* pcbDocument.m */,
+				C904D21E11B48BEB007B810D /* pcb-Info.plist */,
+				C904D27A11B490D6007B810D /* pcb.icns */,
+				C904D28611B49332007B810D /* pcb-layout.icns */,
+				C904D28811B49365007B810D /* pcb-footprint.icns */,
+			);
+			name = pcb;
+			sourceTree = "<group>";
+		};
+		C904D2B711B49499007B810D /* gerbv */ = {
+			isa = PBXGroup;
+			children = (
+				C904D2B911B494C1007B810D /* gerbvDocument.m */,
+				C97B406211B4AA6500283777 /* gerbvProjectDocument.m */,
+				C904D2B311B49482007B810D /* gerbv-Info.plist */,
+				C904D2EC11B49764007B810D /* gerbv.icns */,
+				C904D2E911B49759007B810D /* gerber.icns */,
+				C904D2E811B49759007B810D /* excellon.icns */,
+			);
+			name = gerbv;
+			sourceTree = "<group>";
+		};
+		C904D2FB11B498DA007B810D /* gsch2pcb */ = {
+			isa = PBXGroup;
+			children = (
+				C904D30611B4991E007B810D /* gsch2pcbDocument.m */,
+				C904D30211B49902007B810D /* gsch2pcb-Info.plist */,
+				C904D33611B4A00A007B810D /* gsch2pcb.icns */,
+				C904D32511B49BA8007B810D /* gsch2pcb-project.icns */,
+			);
+			name = gsch2pcb;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C904D1CA11B489EC007B810D /* gschem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C904D1D011B489EC007B810D /* Build configuration list for PBXNativeTarget "gschem" */;
+			buildPhases = (
+				C904D1C711B489EC007B810D /* Resources */,
+				C904D1C811B489EC007B810D /* Sources */,
+				C904D1C911B489EC007B810D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gschem;
+			productName = gschem;
+			productReference = C904D1CB11B489EC007B810D /* gschem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C904D21B11B48BEB007B810D /* pcb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C904D22111B48BEB007B810D /* Build configuration list for PBXNativeTarget "pcb" */;
+			buildPhases = (
+				C904D21811B48BEB007B810D /* Resources */,
+				C904D21911B48BEB007B810D /* Sources */,
+				C904D21A11B48BEB007B810D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pcb;
+			productName = pcb;
+			productReference = C904D21C11B48BEB007B810D /* pcb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C904D2B011B49482007B810D /* gerbv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C904D2B611B49483007B810D /* Build configuration list for PBXNativeTarget "gerbv" */;
+			buildPhases = (
+				C904D2AD11B49482007B810D /* Resources */,
+				C904D2AE11B49482007B810D /* Sources */,
+				C904D2AF11B49482007B810D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gerbv;
+			productName = gerbv;
+			productReference = C904D2B111B49482007B810D /* gerbv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C904D2FF11B49902007B810D /* gsch2pcb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C904D30511B49903007B810D /* Build configuration list for PBXNativeTarget "gsch2pcb" */;
+			buildPhases = (
+				C904D2FC11B49902007B810D /* Resources */,
+				C904D2FD11B49902007B810D /* Sources */,
+				C904D2FE11B49902007B810D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gsch2pcb;
+			productName = gsch2pcb;
+			productReference = C904D30011B49902007B810D /* gsch2pcb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "X11Wrapper" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* X11Wrapper */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C904D1CA11B489EC007B810D /* gschem */,
+				C904D21B11B48BEB007B810D /* pcb */,
+				C904D2B011B49482007B810D /* gerbv */,
+				C904D2FF11B49902007B810D /* gsch2pcb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C904D1C711B489EC007B810D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D1DD11B48A9C007B810D /* MainMenu.xib in Resources */,
+				C904D24B11B48D5D007B810D /* geda-gschem.icns in Resources */,
+				C904D24D11B48D67007B810D /* geda-schematic.icns in Resources */,
+				C904D24F11B48D6E007B810D /* geda-symbol.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D21811B48BEB007B810D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D22411B48C49007B810D /* MainMenu.xib in Resources */,
+				C904D27B11B490D6007B810D /* pcb.icns in Resources */,
+				C904D28711B49332007B810D /* pcb-layout.icns in Resources */,
+				C904D28911B49365007B810D /* pcb-footprint.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2AD11B49482007B810D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D2CB11B49517007B810D /* MainMenu.xib in Resources */,
+				C904D2ED11B49764007B810D /* gerbv.icns in Resources */,
+				C904D2EB11B49759007B810D /* gerber.icns in Resources */,
+				C904D2EA11B49759007B810D /* excellon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2FC11B49902007B810D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D32D11B49BD4007B810D /* MainMenu.xib in Resources */,
+				C904D33711B4A00A007B810D /* gsch2pcb.icns in Resources */,
+				C904D32611B49BA8007B810D /* gsch2pcb-project.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C904D1C811B489EC007B810D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D1D111B48A12007B810D /* X11WrapperAppDelegate.m in Sources */,
+				C904D1D211B48A13007B810D /* X11WrapperDocument.m in Sources */,
+				C904D1E411B48AD8007B810D /* gschemDocument.m in Sources */,
+				C904D1D511B48A59007B810D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D21911B48BEB007B810D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D22511B48C4F007B810D /* X11WrapperDocument.m in Sources */,
+				C904D22611B48C4F007B810D /* X11WrapperAppDelegate.m in Sources */,
+				C904D22311B48C08007B810D /* pcbDocument.m in Sources */,
+				C904D22711B48C53007B810D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2AE11B49482007B810D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D2C311B494F1007B810D /* X11WrapperDocument.m in Sources */,
+				C904D2C411B494F1007B810D /* X11WrapperAppDelegate.m in Sources */,
+				C97B406311B4AA6500283777 /* gerbvProjectDocument.m in Sources */,
+				C904D2BA11B494C1007B810D /* gerbvDocument.m in Sources */,
+				C904D2C511B494F1007B810D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C904D2FD11B49902007B810D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C904D31B11B49A23007B810D /* X11WrapperDocument.m in Sources */,
+				C904D31C11B49A23007B810D /* X11WrapperAppDelegate.m in Sources */,
+				C904D31A11B49A1A007B810D /* gsch2pcbDocument.m in Sources */,
+				C904D31D11B49A23007B810D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C904D1CE11B489EC007B810D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gschem-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gschem;
+			};
+			name = Debug;
+		};
+		C904D1CF11B489EC007B810D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gschem-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gschem;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C904D21F11B48BEB007B810D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "pcb-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = pcb;
+			};
+			name = Debug;
+		};
+		C904D22011B48BEB007B810D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "pcb-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = pcb;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C904D2B411B49483007B810D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gerbv-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gerbv;
+			};
+			name = Debug;
+		};
+		C904D2B511B49483007B810D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gerbv-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gerbv;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C904D30311B49903007B810D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gsch2pcb-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gsch2pcb;
+			};
+			name = Debug;
+		};
+		C904D30411B49903007B810D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "gsch2pcb-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = gsch2pcb;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "X11Wrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C904D1D011B489EC007B810D /* Build configuration list for PBXNativeTarget "gschem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C904D1CE11B489EC007B810D /* Debug */,
+				C904D1CF11B489EC007B810D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C904D22111B48BEB007B810D /* Build configuration list for PBXNativeTarget "pcb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C904D21F11B48BEB007B810D /* Debug */,
+				C904D22011B48BEB007B810D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C904D2B611B49483007B810D /* Build configuration list for PBXNativeTarget "gerbv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C904D2B411B49483007B810D /* Debug */,
+				C904D2B511B49483007B810D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C904D30511B49903007B810D /* Build configuration list for PBXNativeTarget "gsch2pcb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C904D30311B49903007B810D /* Debug */,
+				C904D30411B49903007B810D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}
